@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-
+@media screen and(min-width: 960px){
 body{
 font: 14px/1.6 "Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
 margin:0;
@@ -126,7 +126,7 @@ footer small{
 .txt {
 	padding:50px 100px 50px 200px;
 }
-
+}
 @media screen and(max-width: 480px){
 	body{
 font: 14px/1.6 "Hiragino Kaku Gothic Pro",Osaka,"メイリオ","ＭＳ Ｐゴシック","MS PGothic",Verdana,Arial,sans-serif;
