@@ -12,6 +12,13 @@ outline:none;
 border-style:none;
 }
 
+#body-wrap{
+	position: fixed;
+	top:0;
+	left: ;
+	width: 100%;
+	height: 100%;
+}
 a{
     color:blue;
     -webkit-transition: all 0.5s;
@@ -31,7 +38,7 @@ a:hover {
     transition: all 0.5s;
 }
 
-/*****HEADER*****/
+/*** HEADER ***/
 header{
     display: block;
     width:60%;
@@ -54,7 +61,7 @@ header h1{
     float: left;
 }
 
-/*****NAV*****/
+/*** menu ***/
 nav{
     width: 100%;
     border-top: 1px solid orange;
@@ -89,6 +96,8 @@ nav li:hover{
     color: #fff;
 }
 
+
+
 footer{
     font-size: 80%;
     width: 100%;
@@ -97,6 +106,8 @@ footer{
     padding-bottom: 10px;
     background-color: #313131;
     clear:both;
+
+    bottom:0;
 }
 footer small{
     color: #fff;
@@ -110,6 +121,9 @@ footer small{
 
 .main {
 	width:100%;
+	height: 100%;
+	position: relative;
+	box-sizing: border-box;
 	padding: 10px;
 }
 .boxA {
@@ -199,10 +213,6 @@ ul {
   }
 
 
-
-
-
-
 .result_theme p  {
     margin-top: 5%;
     margin-bottom: 2%;
@@ -282,6 +292,9 @@ ul {
     color: #2791d4;
     transition: 0.5s;
 }
+#page_top{
+  display: none;
+}
 }
 
 @media screen and (max-width: 480px){
@@ -338,7 +351,8 @@ header h1{
     float: left;
 }
 
-/*****NAV*****/
+/*** menu ***/
+
 nav{
     width: 100%;
     border-top: 1px solid orange;
@@ -373,6 +387,8 @@ nav li:hover{
     color: #fff;
 }
 
+
+/*** footer ***/
 footer{
     font-size: 80%;
     width: 100%;
@@ -405,6 +421,9 @@ footer small{
 	height:100%;
 }
 
+
+/*** pageup ***/
+
 #page_top{
   width: 60px;
   height: 60px;
@@ -428,12 +447,10 @@ footer small{
 #page_top a::before{
   font-weight: 900;
   color: #3fefee;
-
 }
 
 
-/*test
-
+/*** test ***/
 
 .choose_box {
   position: relative;
@@ -506,9 +523,6 @@ ul {
     width: 70%;
     text-align: center;
   }
-
-
-
 
 
 
